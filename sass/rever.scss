@@ -1,0 +1,182 @@
+body{
+
+}
+.headerhome{
+	width: 1010px;
+	margin: 0 0 0 1px;
+	border-radius: 5px;
+	height: 107px;
+	background: transparent url('../img/header-bg.png') repeat-x 0 -3px;
+
+	.topgrid{
+		height: 101px;
+		border-radius: 5px 5px 0 0;
+		background: url(../img/header-bg-wrapper.png) 0 0 no-repeat;
+
+		.versologo{
+			width: 170px;
+			height: 70px;
+			margin: 17px 0 0 21px;
+			float: left;
+
+			a{
+				color: #366092;
+				cursor: pointer;
+
+				img{
+					border: 0 none;
+				}
+			}
+		}		
+	}
+
+	.spacer{
+		clear: both;
+
+		.mbar{
+			width: 100%;
+			margin: 0;
+
+			.tbar{
+				margin-right: 0;
+				top: -94px;
+				float: none;
+
+				a{
+					color: #fff;
+					text-align: center;
+					font-size: 12px;
+					font-family: Arial,Helvetica,sans-serif;
+				}
+
+				.activelogo{
+					float: left;
+					height: 27px;
+					display: none;  
+					top: 0;
+					margin-left: 3px;
+					border-radius: 3px;
+
+					img{
+
+						border: 0 none;
+					}
+				}
+
+				.active-nav-wrap{
+					text-align: right;
+					float: right;
+					margin-top: 4px;
+
+					.active-nav-item-nav{
+						border-right: 1px solid #fff;
+						padding-right: 4px;
+
+						.first{
+							padding-left: 0;
+							background-image: none;
+
+							a{
+								height: auto;
+
+							}
+						}
+
+						.last{
+
+							padding-right: 0;
+							margin-right: 2px;
+						}
+					}
+				}
+
+				.social-list{
+					padding-left: 6px;
+
+					.first{
+						padding-left: 0;
+						background-image: none;
+						a{
+							height: auto;
+
+							img{
+								border: 0 none;
+								vertical-align: middle;
+								display: inline-block;
+								border: 0 none;
+
+								span{
+									margin: 0;
+									display: inline-block;
+									float: none;
+
+								}
+							}
+						}
+					}
+
+
+					li{
+
+						display: inline-block;
+						padding-right: 0;
+						padding-left: 8px;
+						background-image: url("../img/nav-bullet.png");
+
+						a{
+
+							height: auto;
+
+							img{
+								border: none;
+
+								span{
+
+									margin: 0;
+									display: inline-block;
+									float: none
+								}
+							}
+						}
+					}
+				}
+
+				.select-liste{
+					float: none;
+					display: inline-block;
+					margin: 0;
+					height: auto;
+					vertical-align: middle;
+
+					.ingselect{
+						height: 21px;
+						position: relative;
+						top: 0;
+						left: -7px;
+
+						.select-langue{
+							font-size: 11px;
+							font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+							color: #000;
+							border: 1px solid #a6acc8;
+							margin: 4px;
+							margin-top: 0;
+							background-color: #fff;
+							padding: 1px;
+							width: 81px;
+
+							option{
+								font-size: 11px;
+								font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+								color: #000;
+
+							}
+						}
+
+					}
+
+				}
+			}
+		}
+	}
+}
